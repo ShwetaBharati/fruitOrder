@@ -1,0 +1,203 @@
+/******************************************************************
+  Template Name: FoodOrder
+  Description:  FoodOrder eCommerce  HTML, CSS, JavaScript Template
+  Author: Shweta
+  Author Email: shwetabharati888@gmail.com
+******************************************************************/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Categories
+2. Featured Product
+-------------------------------------------------------------------*/
+
+/*---------------------
+  Categories 
+-----------------------*/
+
+.categories-item {
+	height: 270px;
+	position: relative;
+}
+
+.categories-item h5 {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	padding: 0 20px;
+	bottom: 20px;
+	text-align: center;
+}
+
+.categories-item h5 a {
+	font-size: 18px;
+	color: #1c1c1c;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 12px 0 10px;
+	background: #ffffff;
+	display: block;
+}
+
+.categories-slider .col-lg-3 {
+	max-width: 100%;
+}
+
+.categories-slider.owl-carousel .owl-nav button {
+	font-size: 18px;
+	color: #1c1c1c;
+	height: 70px;
+	width: 30px;
+	line-height: 70px;
+	text-align: center;
+	border: 1px solid #ebebeb;
+	position: absolute;
+	left: -35px;
+	top: 50%;
+	/* -webkit-transform: translateY(-35px); */
+	background: #ffffff;
+}
+
+.categories-slider.owl-carousel .owl-nav button.owl-next {
+	left: auto;
+	right: -35px;
+}
+
+/*---------------------
+  Featured
+-----------------------*/
+
+.featured {
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.featured-controls {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.featured-controls ul li {
+	list-style: none;
+	font-size: 18px;
+	color: #1c1c1c;
+	display: inline-block;
+	margin-right: 25px;
+	position: relative;
+	cursor: pointer;
+}
+
+.featured-controls ul li.active:after {
+	opacity: 1;
+}
+
+.featured-controls ul li:after {
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 100%;
+	height: 2px;
+	background: #7fad39;
+	content: "";
+	opacity: 0;
+}
+
+.featured-controls ul li:last-child {
+	margin-right: 0;
+}
+
+.featured-item {
+	margin-bottom: 50px;
+}
+
+.featured-item:hover .featured-item-pic .featured-item-pic-hover {
+	bottom: 20px;
+}
+
+.featured-item-pic {
+	height: 270px;
+	position: relative;
+	overflow: hidden;
+	background-position: center center;
+}
+
+.featured-item-pic-hover {
+	position: absolute;
+	left: 0;
+	bottom: -50px;
+	width: 100%;
+	text-align: center;
+	-webkit-transition: all, 0.5s;
+	-moz-transition: all, 0.5s;
+	-ms-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+
+.featured-item-pic-hover li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.featured-item-pic-hover li:last-child {
+	margin-right: 0;
+}
+
+.featured-item-pic-hover li:hover a {
+	background: #7fad39;
+	border-color: #7fad39;
+}
+
+.featured-item-pic-hover li:hover a i {
+	color: #ffffff;
+	transform: rotate(360deg);
+}
+
+.featured-item-pic-hover li a {
+	font-size: 16px;
+	color: #1c1c1c;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #ebebeb;
+	background: #ffffff;
+	display: block;
+	border-radius: 50%;
+	-webkit-transition: all, 0.5s;
+	-moz-transition: all, 0.5s;
+	-ms-transition: all, 0.5s;
+	-o-transition: all, 0.5s;
+	transition: all, 0.5s;
+}
+
+.featured-item-pic-hover li a i {
+	position: relative;
+	transform: rotate(0);
+	-webkit-transition: all, 0.3s;
+	-moz-transition: all, 0.3s;
+	-ms-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.featured-item-text {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.featured-item-text h6 {
+	margin-bottom: 10px;
+}
+
+.featured-item-text h6 a {
+	color: #252525;
+}
+
+.featured-item-text h5 {
+	color: #252525;
+	font-weight: 700;
+}

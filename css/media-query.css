@@ -1,0 +1,248 @@
+/******************************************************************
+  Template Name: FoodOrder
+  Description:  FoodOrder eCommerce  HTML, CSS, JavaScript Template
+  Author: Shweta
+  Author Email: shwetabharati888@gmail.com
+******************************************************************/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1.  Template Default CSS
+2.  Helper Css
+3.  Header Section
+4.  Hero Section
+5.  Service Section
+6.  Categories Section
+7.  Featured Section
+8.  Latest Product Section
+9.  Contact
+10. Footer Section
+-------------------------------------------------------------------*/
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+
+/* 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.header-menu ul li {
+		margin-right: 45px;
+	}
+	.menu-search-form {
+		width: 490px;
+	}
+	.menu-categories-all {
+		padding: 10px 25px 10px 20px;
+	}
+	.menu-categories ul {
+		padding-left: 20px;
+	}
+	.top-product-slider.owl-carousel .owl-nav {
+		right: 0;
+	}
+	.product-details-tab .nav-tabs:before {
+		width: 265px;
+	}
+	.product-details-tab .nav-tabs:after {
+		width: 265px;
+	}
+	.shoping-discount form input {
+		width: 240px;
+	}
+}
+
+/* 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.menu-categories {
+		margin-bottom: 30px;
+	}
+	.menu-search-form {
+		width: 485px;
+	}
+	.categories-slider.owl-carousel .owl-nav button {
+		left: -20px;
+	}
+	.categories-slider.owl-carousel .owl-nav button.owl-next {
+		right: -20px;
+	}
+	.filter-sort .nice-select {
+		padding-left: 5px;
+		padding-right: 28px;
+	}
+	.product-details-quantity {
+		margin-bottom: 10px;
+	}
+	.product-details-text .primary-btn {
+		margin-bottom: 10px;
+	}
+	.product-details-tab .nav-tabs:before {
+		width: 150px;
+	}
+	.product-details-tab .nav-tabs:after {
+		width: 150px;
+	}
+	.blog-details-author {
+		overflow: hidden;
+		margin-bottom: 25px;
+	}
+	.header .container {
+		position: relative;
+	}
+	.header-top {
+		display: none;
+	}
+	.header-menu {
+		display: none;
+	}
+	.header-cart {
+		text-align: center;
+		padding: 10px 0 24px;
+	}
+	.over_hid {
+		overflow: hidden;
+	}
+}
+
+/* 480px */
+
+@media only screen and (max-width: 767px) {
+	.menu-categories {
+		margin-bottom: 30px;
+	}
+	.menu-search {
+		margin-bottom: 30px;
+	}
+	.menu-search-form {
+		width: 100%;
+	}
+	.menu-search-form form input {
+		width: 100%;
+	}
+	.menu-search-form form .menu-search-categories {
+		display: none;
+	}
+	.menu-search-phone {
+		float: left;
+		margin-top: 30px;
+	}
+	.categories-slider.owl-carousel .owl-nav {
+		text-align: center;
+		margin-top: 40px;
+	}
+	.categories-slider.owl-carousel .owl-nav button {
+		position: relative;
+		left: 0;
+		top: 0;
+		-webkit-transform: translateY(0);
+	}
+	.categories-slider.owl-carousel .owl-nav button.owl-next {
+		right: -10px;
+	}
+	.footer-copyright {
+		text-align: center;
+	}
+	.footer-copyright-text {
+		float: none;
+		margin-bottom: 25px;
+	}
+	.footer-copyright-payment {
+		float: none;
+	}
+	.filter-item {
+		text-align: center;
+	}
+	.filter-option {
+		text-align: center;
+	}
+	.product-details-pic {
+		margin-bottom: 40px;
+	}
+	.product-details-tab .nav-tabs:before {
+		display: none;
+	}
+	.product-details-tab .nav-tabs:after {
+		display: none;
+	}
+	.shoping-cart-table {
+		overflow-y: auto;
+	}
+	.shoping-discount form input {
+		margin-bottom: 15px;
+	}
+	.blog-details-author {
+		overflow: hidden;
+		margin-bottom: 25px;
+	}
+	.header .container {
+		position: relative;
+	}
+	.header-top {
+		display: none;
+	}
+	.header-menu {
+		display: none;
+	}
+	.header-cart {
+		text-align: center;
+		padding: 10px 0 24px;
+	}
+	.over_hid {
+		overflow: hidden;
+	}
+}
+
+/* 320px */
+
+@media only screen and (max-width: 479px) {
+	.menu-search-form form .menu-search-categories {
+		display: none;
+	}
+	.featured-controls ul li {
+		margin-bottom: 10px;
+	}
+	.product-details-text ul li b {
+		width: 100px;
+	}
+	.product-details-tab .nav-tabs li {
+		margin-right: 20px;
+	}
+	.shoping-cart-btns {
+		text-align: center;
+	}
+	.primary-btn.cart-btn.cart-btn-right {
+		float: none;
+		margin-top: 10px;
+	}
+	.shoping-checkout .primary-btn {
+		display: block;
+		text-align: center;
+		padding: 10px 15px 10px;
+	}
+	.map .map-inside {
+		-webkit-transform: translateX(-125px);
+		-ms-transform: translateX(-125px);
+		transform: translateX(-125px);
+	}
+	.map .map-inside .inside-widget {
+		width: 250px;
+	}
+	.product-details-tab .nav-tabs li {
+		margin-right: 15px;
+	}
+	.shoping-discount form input {
+		width: 100%;
+	}
+	.checkout-order {
+		padding: 20px;
+	}
+	.blog-details-hero-text h2 {
+		font-size: 24px;
+	}
+}
